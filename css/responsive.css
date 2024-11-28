@@ -1,0 +1,18 @@
+/* css/responsive.css */
+@media (max-width: 768px) {
+    .task-form,
+    .task-list {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .task-filters {
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+}
