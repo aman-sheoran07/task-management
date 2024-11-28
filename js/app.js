@@ -16,5 +16,5 @@ document.querySelector('.task-filters').addEventListener('click', (e) => {
             btn.classList.remove('active'));
         e.target.classList.add('active');
         taskManager.renderTasks(e.target.dataset.filter);
-    }
+    }
 });

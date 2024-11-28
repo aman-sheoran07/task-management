@@ -56,7 +56,7 @@ class TaskManager {
 
     createTaskElement(task) {
         const div = document.createElement('div');
-        div.className = task-card ${task.status};
+        div.className = 'task-card ${task.status}';
         div.innerHTML = `
             <h3>${task.title}</h3>
             <p>${task.description}</p>
